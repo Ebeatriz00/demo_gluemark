@@ -7,13 +7,14 @@
 
 ---
 
-## 📦 Estructura del Repositorio
-
+# 📦 Estructura del Repositorio
+```
 ├── backend/ # API REST en C# .NET 8 (Clean Architecture)
 │ └── README.md # Guía de instalación y uso del backend
 ├── frontend/ # Interfaz en React (WIP)
 │ └── README.md # Guía de instalación y uso del frontend
 └── docs/ # Diagramas, documentación y notas técnicas
+```
 ---
 
 ## 🚀 Descripción General
