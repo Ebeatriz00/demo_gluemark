@@ -28,7 +28,7 @@ Este ERP está diseñado para:
 - **Analítica de planta**: KPIs (rendimiento, scrap, OEE básico), tableros y reportes exportables.  
 
 ### 🧱 Arquitectura
-- **Backend:** C# .NET 8, Clean Architecture, SQL Server, AutoMapper, FluentValidation.  
+- **Backend:** C# .NET 8, Clean Architecture, SQL Server, AutoMapper, FluentValidation (WIP).  
 - **Frontend:** React, Vite, TailwindCSS (WIP).  
 - **Integraciones:** Compatibilidad con múltiples sistemas externos (ERP, contabilidad, facturación electrónica, etc.), SUNAT.
 
