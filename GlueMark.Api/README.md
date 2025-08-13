@@ -15,6 +15,7 @@
 - SQL Server 2019+
 - Visual Studio 2022 o VS Code
 
+---
 
 ### Instalación y ejecución
 ```bash
@@ -22,9 +23,8 @@ git clone https://github.com/Ebeatriz00/demo_gluemark.git
 cd backend/GlueMark
 dotnet restore
 dotnet run
-
+```
 ## 🏗️ Estructura del Proyecto
-
 ```
 ├── Application               # Casos de uso (CU), DTOs, validaciones, mapeos, lógica de aplicación
 │   ├── DTOs                  # Data Transfer Objects para entrada/salida de datos
