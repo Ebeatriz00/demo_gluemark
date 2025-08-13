@@ -48,8 +48,8 @@ El objetivo principal es mostrar la **arquitectura, buenas prácticas y capacida
 
 ## 📂 Documentación por módulo
 
-- [Backend API – .NET 8](README.md)  
-- [Frontend – React](frontend/README.md)
+- [Backend API – .NET 8] 
+- [Frontend – React]
 
 ---
 
