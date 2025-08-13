@@ -1,8 +1,27 @@
-# 📘 GlueMark - Documentación del Proyecto
+# 📘 GlueMark – Backend API (.NET 8)
 
-Este proyecto implementa una arquitectura Clean Architecture para un sistema ERP modular y escalable llamado **GlueMark**.
+> API REST desarrollada con **Clean Architecture** para un ERP modular y escalable llamado GlueMark.  
+> Proyecto parte de mi **portafolio profesional**, diseñado para demostrar arquitectura, buenas prácticas y manejo de integraciones.
+
+![.NET 8](https://img.shields.io/badge/.NET-8.0-blue)
+![Status](https://img.shields.io/badge/status-WIP-orange)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
 
 ---
+## 🚀 Requisitos e instalación
+
+### Requisitos previos
+- .NET 8 SDK
+- SQL Server 2019+
+- Visual Studio 2022 o VS Code
+
+
+### Instalación y ejecución
+```bash
+git clone https://github.com/Ebeatriz00/demo_gluemark.git
+cd backend/GlueMark
+dotnet restore
+dotnet run
 
 ## 🏗️ Estructura del Proyecto
 
@@ -39,7 +58,7 @@ Este proyecto implementa una arquitectura Clean Architecture para un sistema ERP
 6. Se utiliza AutoMapper (si aplica) para mapear la entidad a un DTO o viceversa.
 7. Se devuelve la respuesta al cliente desde el controlador.
 
-### 🧱 ¿Qué creo primero?
+### 🧱 Guía de desarrollo (orden recomendado)
 
 1. Entidad (en `Core.Entities`)
 2. Interfaz del repositorio (en `Core.Interfaces`)
@@ -63,7 +82,7 @@ Este proyecto implementa una arquitectura Clean Architecture para un sistema ERP
 | Variables         | camelCase                              | `businessId`, `documentTypeId` |
 | DTOs              | Sufijo `Dto`, PascalCase               | `DocumentTypeCreateDto`        |
 | Modelos           | Sufijo `Model`, PascalCase             | `DocumentTypeUpdateModel`      |
-| Rutas (API)       | kebab-case y verbo en inglés si aplica | `/api/DocumentType/create`     |
+| Rutas (API)       | PascalCase para controlador y acción | `/api/DocumentType/create`     |
 | Stored Procedures | Prefijo `SP_WS_`, SNAKE_CASE           | `SP_WS_LIST_DOCUMENT_TYPE`     |
 
 ---
@@ -119,3 +138,19 @@ Body:
 - Las operaciones con base de datos se ejecutan vía stored procedures por seguridad y performance.
 - La capa `Application` se encarga de la lógica de orquestación y validación, no contiene lógica de acceso a datos directamente.
 - `SharedKernel` contiene utilitarios como `GlobalResponse`, usados por todas las capas.
+
+---
+## 📌  Nota sobre el alcance
+
+Este proyecto es una demo de portafolio desarrollada de forma personal.
+Por lo tanto:
+
+- No incluye todas las funcionalidades de un ERP completo.
+- Algunos módulos están simplificados para fines de demostración.
+- Las integraciones y reportes pueden variar según el avance y tiempo disponible.
+El objetivo principal es mostrar la arquitectura, buenas prácticas y capacidad técnica.
+
+---
+## 📄 Licencia
+
+Este proyecto está bajo la licencia MIT – ver [LICENSE](LICENSE) para más detalles.
