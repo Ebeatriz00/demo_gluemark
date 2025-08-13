@@ -1,0 +1,35 @@
+# Archivos de configuración local
+appsettings.Development.json
+appsettings.*.local.json
+
+# Archivos de usuario de Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Carpetas de dependencias
+bin/
+obj/
+out/
+
+# Paquetes NuGet
+*.nupkg
+# Paquetes generados por dotnet pack
+*.snupkg
+
+# Archivos de publicación
+publish/
+
+# Carpetas de configuración de IDE
+.vscode/
+.idea/
+
+# Archivos temporales
+*.tmp
+*.temp
+*.log
+
+# Sistema operativo
+.DS_Store
+Thumbs.db

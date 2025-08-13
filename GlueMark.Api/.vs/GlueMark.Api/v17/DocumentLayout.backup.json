@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Proyectos\\ERIKA\\simvetech\\CleanArchitecture\\GlueMark.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{766C47CB-9B9D-42CC-96DD-2D5805064208}|Tests\\Tests.csproj|d:\\proyectos\\erika\\simvetech\\cleanarchitecture\\gluemark.api\\tests\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{766C47CB-9B9D-42CC-96DD-2D5805064208}|Tests\\Tests.csproj|solutionrelative:tests\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Proyectos\\ERIKA\\simvetech\\CleanArchitecture\\GlueMark.Api\\Tests\\Class1.cs",
+              "RelativeDocumentMoniker": "Tests\\Class1.cs",
+              "ToolTip": "D:\\Proyectos\\ERIKA\\simvetech\\CleanArchitecture\\GlueMark.Api\\Tests\\Class1.cs",
+              "RelativeToolTip": "Tests\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T20:59:02.887Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
